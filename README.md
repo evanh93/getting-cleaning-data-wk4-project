@@ -4,6 +4,7 @@
 
 This repo contains an R file titled 'run_analysis.R' which performs the actual transformation of data as well as 'Codebook.md' which goes over the information presented in the original dataset as well as the final 'tidy' dataset. 
 
+## Files
 ### Codebook.md
 'Codebook.md' goes over the information presented in the original dataset such as the original sources of the information as well as the procedure used for obtaining the data. It also describes the data presented in the final 'tidy' dataset produced by the R script.
 
