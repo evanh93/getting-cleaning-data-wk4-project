@@ -47,3 +47,11 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 - Each row represents a unique combination of 'subject_id' and 'activity_name'
 - 30 subjects and 6 activities results in 180 unique rows
 - Each row contains the average of each of the 66 original measurements that related to mean and standard deviation
+
+The final dataset was obtained by running the 'run_analysis.R' script which:
+- reads all text files into R and assigns appropriate variable/column names
+- concatenates all training and test sets to obtain full dataset
+- filters out unwanted variables, leaving only those that are a mean or standard deviation measurement
+- aggregates the remaining data by 'subject_id' and 'activity_name' and finds the average for each measurement
+- orders the information first by subject and second by activity
+- writes this final 'tidy' dataset to a textfile for later use
