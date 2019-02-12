@@ -1,6 +1,6 @@
 # Dataset Information
 
-### Overview
+## Overview
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -20,7 +20,7 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-### The dataset includes the following files:
+#### The dataset includes the following files:
 - 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
@@ -36,7 +36,7 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-### Notes: 
+#### Notes: 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
@@ -48,7 +48,7 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 - 30 subjects and 6 activities results in 180 unique rows
 - Each row contains the average of each of the 66 original measurements that related to mean and standard deviation
 
-The final dataset was obtained by running the 'run_analysis.R' script which:
+#### The final dataset was obtained by running the 'run_analysis.R' script which:
 - reads all text files into R and assigns appropriate variable/column names
 - concatenates all training and test sets to obtain full dataset
 - filters out unwanted variables, leaving only those that are a mean or standard deviation measurement
